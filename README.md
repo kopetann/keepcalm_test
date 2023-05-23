@@ -1,4 +1,4 @@
-# Test task for KeepCalm company(still in work)
+# Test task for KeepCalm company
 **********************************
 ##### Contains following files:
 * [first-back-task.ts](first-back-task.ts)
