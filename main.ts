@@ -1,2 +1,3 @@
 import {FirstBackTask} from './first-back-task';
-FirstBackTask.getResult();
+
+const res: number = FirstBackTask.getResult(["start", "connect", "message", "end", "start", "connect", "message", "end", "start", "connect", "message"]);
