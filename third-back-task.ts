@@ -1,6 +1,6 @@
 export class ThirdBackTask {
     public static getResult(sequence: string): string {
-        const matches = [...sequence.matchAll(/(\d){(\d+)}/g)];
+        const matches: RegExpMatchArray[] = [...sequence.matchAll(/(\d){(\d+)}/g)];
         if (!matches) {
             return sequence;
         }
@@ -12,8 +12,6 @@ export class ThirdBackTask {
         if(sequence.includes('{')){
             sequence = this.getResult(sequence);
         }
-
-        console.log(sequence);
 
         return sequence;
     }
